@@ -1,0 +1,29 @@
+section.header {
+    background-color: bisque;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: coral;
+}
+
+span {
+    color:chocolate;
+}
+
+img {
+width: 200px;
+padding-left: 60px;
+border: darkgrey;
+border-width: 10px;
+}
+div {
+    width: 200px;
+    background-color: darkmagenta;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: orange; 
+}
+
