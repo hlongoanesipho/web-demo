@@ -12,14 +12,20 @@
 <body>
     <section class="header">
         <H1>web project</H1>
-        <header id="menu">
-            <nav>
-                <link href="about" name="about">
-                <link href="contact">
-                <link href="services">
-            </nav>
-        </header>
     </section>
+
+    <!-- A button, which displays a menu when clicked. -->
+    <button type="menu" menu="popup-menu">
+        Dropdown
+    </button>
+
+    <menu type="context" id="popup-menu">
+        <menuitem>Action</menuitem>
+        <menuitem>Another action</menuitem>
+        <hr />
+        <menuitem>Separated action</menuitem>
+    </menu>
+
     <hr>
     <section>
         <img type="image" src="c:\users\admin\pictures/akgp d5 c.jpg" alt="D5" id="D5"><img type="image"
